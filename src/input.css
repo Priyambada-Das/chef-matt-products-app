@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-dark-transparent {
+        background: #130F0CCC;
+        backdrop-filter: blur(5px);
+    }
+
+    .vertical-logo {
+        transform-origin: center;
+        width: 250px;
+        height: 102px;
+        padding-left: 60px;
+    }
+    .bg-background{
+        background: #130F0C;
+    }
+    .btnBackground{
+        background: #D29A5A;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        color: #fff !important;
+    }
+}
